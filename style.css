@@ -1,0 +1,56 @@
+html,
+body
+{
+    margin: 0;
+    height: 100%;
+}
+
+.main-area
+{
+    height: 100%;
+
+    background-color: #aaa;
+}
+
+.rabbit,
+.snake-head,
+.snake-item
+{
+    position: absolute;
+
+    width: 20px;
+    height: 20px;
+
+    text-align: center;
+
+    outline: 1px solid;
+}
+
+.snake-item,
+.snake-head
+{
+    outline-color: #65bf65;
+    background: #90ee90;
+}
+
+.rabbit
+{
+    outline-color: #ce8d76;
+    background-color: #ffa07a;
+}
+
+.actions
+{
+    position: absolute;
+    bottom: 0;
+}
+
+.txt-speed
+{
+    width: 40px;
+}
+
+.points
+{
+    color: #f00;
+}
